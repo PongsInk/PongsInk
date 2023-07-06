@@ -1,3 +1,48 @@
+#logo {
+    height: 4rem;
+}
+
 .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
     list-style-type: none;
+}
+
+.nav img {
+    margin-right: 2rem;
+}
+
+.nav a {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: #747F7F;
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.nav a:hover {
+    background-color: #1B7F79;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+table {
+    border-right: dashed;
+    border-bottom: dashed;
+    text-align: center;
+}
+
+table th {
+    border-left: dashed;
+    border-top: dashed;
+}
+
+table td {
+    border-left: dashed;
+    border-top: dashed;
 }
